@@ -1,0 +1,41 @@
+### **4. Fichiers de Données & Configuration**
+
+#### **4.1 - src/constants/data/exercises.json**
+```json
+[
+  {
+    "id": "squat",
+    "name": "Squat",
+    "category": "compound",
+    "muscleGroup": "legs",
+    "type": "strength",
+    "equipment": "barbell",
+    "instructions": "Pieds largeur épaules, descendre hanches en arrière, genoux alignés sur orteils",
+    "tips": ["Garder le dos droit", "Descendre jusqu'aux cuisses parallèles"],
+    "variations": ["Front Squat", "Goblet Squat"]
+  },
+  {
+    "id": "deadlift",
+    "name": "Soulevé de Terre",
+    "category": "compound",
+    "muscleGroup": "posterior",
+    "type": "strength",
+    "equipment": "barbell",
+    "instructions": "Barre près des tibias, dos droit, soulever en poussant hanches vers l'avant",
+    "tips": ["Engagement core", "Barre collée au corps"],
+    "variations": ["Romanian Deadlift", "Sumo Deadlift"]
+  },
+  {
+    "id": "push_up",
+    "name": "Pompes",
+    "category": "compound",
+    "muscleGroup": "chest",
+    "type": "bodyweight",
+    "equipment": "none",
+    "instructions": "Position planche, descendre poitrine vers sol, pousser pour remonter",
+    "tips": ["Corps aligné", "Contrôle de la descente"],
+    "variations": ["Pompes inclinées", "Pompes déclinées", "Pompes diamant"]
+  }
+]
+
+````

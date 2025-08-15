@@ -1,0 +1,53 @@
+[
+  {
+    "id": "16_8",
+    "name": "16:8",
+    "fastingHours": 16,
+    "eatingHours": 8,
+    "description": "Le protocole le plus populaire et accessible",
+    "benefits": [
+      "Facile à maintenir",
+      "Idéal débutants",
+      "Compatible vie sociale"
+    ],
+    "difficulty": "beginner",
+    "recommendedFor": [
+      "Débutants",
+      "Vie sociale active",
+      "Première expérience jeûne"
+    ]
+  },
+  {
+    "id": "18_6",
+    "name": "18:6",
+    "fastingHours": 18,
+    "eatingHours": 6,
+    "description": "Protocole intermédiaire pour progression",
+    "benefits": [
+      "Autophagie plus longue",
+      "Cétose plus profonde",
+      "Moins de repas"
+    ],
+    "difficulty": "intermediate",
+    "recommendedFor": [
+      "Habitués 16:8",
+      "Objectif perte poids",
+      "Flexibilité horaires"
+    ]
+  },
+  {
+    "id": "omad",
+    "name": "OMAD",
+    "fastingHours": 23,
+    "eatingHours": 1,
+    "description": "Un seul repas par jour - protocole avancé",
+    "benefits": ["Autophagie maximale", "Simplicité extrême", "Économie temps"],
+    "difficulty": "advanced",
+    "recommendedFor": [
+      "Expérimentés",
+      "Objectif thérapeutique",
+      "Mode de vie simple"
+    ],
+    "warnings": ["Consultation médicale conseillée", "Progression graduelle"]
+  }
+]
